@@ -1,8 +1,5 @@
 # ECGR 4106 – Homework 1: CNN Architectures on CIFAR-10
 
-**Name:** Anthony Kang  
-**Student ID:** 801440598
-
 ## Overview
 This repository implements and compares four CNN architectures on CIFAR-10:
 - **Problem 1:** Modified AlexNet (adapted for 32×32 inputs) + dropout study
