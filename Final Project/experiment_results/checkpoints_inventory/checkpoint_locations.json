@@ -1,0 +1,137 @@
+{
+  "note": "Checkpoint .pt files are NOT committed (50\u2013120 MB each; GitHub 100 MB limit). Keep them on Google Drive.",
+  "files": {
+    "v2.1_gru_bahdanau_lr0.0003_seed1_final_best.pt": {
+      "size_bytes": 69138064,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_baseline_lr0.0003_seed0_search_best.pt": {
+      "size_bytes": 50244899,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_baseline_lr0.0003_seed2_final_best.pt": {
+      "size_bytes": 50245500,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_baseline_lr0.0003_seed3_final_best.pt": {
+      "size_bytes": 50245116,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_luong_lr0.001_seed0_search_best.pt": {
+      "size_bytes": 62836343,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_multihead_lr0.0003_seed0_search_best.pt": {
+      "size_bytes": 75454338,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_multihead_lr0.001_seed0_search_best.pt": {
+      "size_bytes": 75454131,
+      "found_in": [
+        "download_1",
+        "download_2"
+      ]
+    },
+    "v2.1_gru_bahdanau_lr0.0003_seed2_final_best.pt": {
+      "size_bytes": 69137808,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_gru_bahdanau_lr0.0003_seed3_final_best.pt": {
+      "size_bytes": 69137552,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_gru_bahdanau_lr0.001_seed0_search_best.pt": {
+      "size_bytes": 69137680,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_gru_luong_lr0.0003_seed0_search_best.pt": {
+      "size_bytes": 62836326,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_gru_luong_lr0.0003_seed3_final_best.pt": {
+      "size_bytes": 62835895,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_gru_multihead_lr0.0003_seed2_final_best.pt": {
+      "size_bytes": 75454131,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_transformer_lr0.0001_seed0_search_best.pt": {
+      "size_bytes": 120396455,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_transformer_lr0.0001_seed0_search_latest.pt": {
+      "size_bytes": 120395971,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_transformer_lr0.0003_seed2_final_best.pt": {
+      "size_bytes": 120395897,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_transformer_lr0.0003_seed3_final_best.pt": {
+      "size_bytes": 120396025,
+      "found_in": [
+        "download_3"
+      ]
+    },
+    "v2.1_transformer_lr0.001_seed0_search_best.pt": {
+      "size_bytes": 120396409,
+      "found_in": [
+        "download_3"
+      ]
+    }
+  },
+  "manifest_final_checkpoints": {
+    "v2.1_gru_bahdanau_lr0.0003_seed1_final_best.pt": "present_in_downloads",
+    "v2.1_gru_bahdanau_lr0.0003_seed2_final_best.pt": "present_in_downloads",
+    "v2.1_gru_bahdanau_lr0.0003_seed3_final_best.pt": "present_in_downloads",
+    "v2.1_gru_baseline_lr0.0003_seed1_final_best.pt": "missing_from_all_local_downloads",
+    "v2.1_gru_baseline_lr0.0003_seed2_final_best.pt": "present_in_downloads",
+    "v2.1_gru_baseline_lr0.0003_seed3_final_best.pt": "present_in_downloads",
+    "v2.1_gru_luong_lr0.0003_seed1_final_best.pt": "missing_from_all_local_downloads",
+    "v2.1_gru_luong_lr0.0003_seed2_final_best.pt": "missing_from_all_local_downloads",
+    "v2.1_gru_luong_lr0.0003_seed3_final_best.pt": "present_in_downloads",
+    "v2.1_gru_multihead_lr0.0003_seed1_final_best.pt": "missing_from_all_local_downloads",
+    "v2.1_gru_multihead_lr0.0003_seed2_final_best.pt": "present_in_downloads",
+    "v2.1_gru_multihead_lr0.0003_seed3_final_best.pt": "missing_from_all_local_downloads",
+    "v2.1_transformer_lr0.0003_seed1_final_best.pt": "missing_from_all_local_downloads",
+    "v2.1_transformer_lr0.0003_seed2_final_best.pt": "present_in_downloads",
+    "v2.1_transformer_lr0.0003_seed3_final_best.pt": "present_in_downloads"
+  }
+}

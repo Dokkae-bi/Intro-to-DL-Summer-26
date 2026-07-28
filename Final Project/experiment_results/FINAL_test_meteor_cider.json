@@ -1,0 +1,107 @@
+[
+ {
+  "architecture": "gru_bahdanau",
+  "seed": 1,
+  "learning_rate": 0.0003,
+  "METEOR": 0.4107222119257022,
+  "CIDEr": 0.04102341560856905
+ },
+ {
+  "architecture": "gru_bahdanau",
+  "seed": 2,
+  "learning_rate": 0.0003,
+  "METEOR": 0.4112701946873811,
+  "CIDEr": 0.041200575200496185
+ },
+ {
+  "architecture": "gru_bahdanau",
+  "seed": 3,
+  "learning_rate": 0.0003,
+  "METEOR": 0.4164077526149138,
+  "CIDEr": 0.04259218527486938
+ },
+ {
+  "architecture": "gru_baseline",
+  "seed": 1,
+  "learning_rate": 0.0003,
+  "METEOR": 0.39769042314581776,
+  "CIDEr": 0.03572890974238217
+ },
+ {
+  "architecture": "gru_baseline",
+  "seed": 2,
+  "learning_rate": 0.0003,
+  "METEOR": 0.4163954342234644,
+  "CIDEr": 0.04146028366913489
+ },
+ {
+  "architecture": "gru_baseline",
+  "seed": 3,
+  "learning_rate": 0.0003,
+  "METEOR": 0.40745909109236617,
+  "CIDEr": 0.038507422012389894
+ },
+ {
+  "architecture": "gru_luong",
+  "seed": 1,
+  "learning_rate": 0.0003,
+  "METEOR": 0.38060409017820446,
+  "CIDEr": 0.03397780562515147
+ },
+ {
+  "architecture": "gru_luong",
+  "seed": 2,
+  "learning_rate": 0.0003,
+  "METEOR": 0.38603381556607674,
+  "CIDEr": 0.034658739373476785
+ },
+ {
+  "architecture": "gru_luong",
+  "seed": 3,
+  "learning_rate": 0.0003,
+  "METEOR": 0.384975411120115,
+  "CIDEr": 0.03419347302211086
+ },
+ {
+  "architecture": "gru_multihead",
+  "seed": 1,
+  "learning_rate": 0.0003,
+  "METEOR": 0.39872346031081063,
+  "CIDEr": 0.03826616030933864
+ },
+ {
+  "architecture": "gru_multihead",
+  "seed": 2,
+  "learning_rate": 0.0003,
+  "METEOR": 0.397514393003005,
+  "CIDEr": 0.038416423480984195
+ },
+ {
+  "architecture": "gru_multihead",
+  "seed": 3,
+  "learning_rate": 0.0003,
+  "METEOR": 0.4032954591401976,
+  "CIDEr": 0.038698270949783335
+ },
+ {
+  "architecture": "transformer",
+  "seed": 1,
+  "learning_rate": 0.0003,
+  "METEOR": 0.39918621724980335,
+  "CIDEr": 0.03798420526737297
+ },
+ {
+  "architecture": "transformer",
+  "seed": 2,
+  "learning_rate": 0.0003,
+  "METEOR": 0.41512250730475453,
+  "CIDEr": 0.041489259234359026
+ },
+ {
+  "architecture": "transformer",
+  "seed": 3,
+  "learning_rate": 0.0003,
+  "METEOR": 0.4050830936157104,
+  "CIDEr": 0.039421956180519364
+ }
+]

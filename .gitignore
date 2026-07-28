@@ -1,0 +1,7 @@
+
+# Final project large artifacts (keep on Drive, not git)
+Final Project/**/*.pt
+Final Project/**/resnet50_feats*.pt
+Final Project/**/Flicker8k_Dataset/
+Final Project/**/Flickr8k_Dataset/
+Final Project/experiment_results/checkpoints/

@@ -1,0 +1,198 @@
+{
+ "experiment_version": "v2.1",
+ "frozen_at": "2026-07-28 03:34:30",
+ "selection_rule": "max validation BLEU-4 (greedy decoding)",
+ "vocab_hash": "9b8b09c4f2258d512754d8538a6cee3b26f4af1d441f41d9abe90149621fcc44",
+ "splits_hash": "0e7d20004f2c99704566ea10667cceeb2007dc25a6dc002996cbc56199e68dd0",
+ "file_order_hash": "f00879fdaa974867ab7a9babc30a7df533ecce407cf10b95c39faad1d3e1c4a5",
+ "split_source": "karpathy",
+ "bleu_impl": "nltk.corpus_bleu/BP-applied/no-smoothing",
+ "cfg": {
+  "project_root": "/content/drive/MyDrive/image_captioning_project",
+  "raw_dir": "/content/drive/MyDrive/image_captioning_project/raw",
+  "results_dir": "/content/drive/MyDrive/image_captioning_project/results",
+  "ckpt_dir": "/content/drive/MyDrive/image_captioning_project/checkpoints",
+  "min_word_freq": 5,
+  "emb_dim": 256,
+  "hidden_dim": 512,
+  "batch_size": 64,
+  "max_epochs": 30,
+  "patience": 6,
+  "grad_clip": 5.0,
+  "max_decode_len": 30,
+  "feature_dim": 2048,
+  "num_pixels": 49,
+  "encoder_weights": "ResNet50_Weights.IMAGENET1K_V2",
+  "bleu_impl": "nltk.corpus_bleu/BP-applied/no-smoothing",
+  "experiment_version": "v2.1"
+ },
+ "architectures": {
+  "gru_bahdanau": {
+   "learning_rate": 0.0003,
+   "decode_policy": "incremental (recurrent state reuse)",
+   "model_config": {
+    "dropout": 0.3,
+    "attention": "bahdanau",
+    "heads": 1
+   },
+   "parameter_count": 5759725,
+   "runs": [
+    {
+     "run_id": "v2.1_gru_bahdanau_lr0.0003_seed1_final",
+     "seed": 1,
+     "checkpoint_file": "v2.1_gru_bahdanau_lr0.0003_seed1_final_best.pt",
+     "selected_epoch": 8,
+     "val_bleu4": 0.19576179593207194
+    },
+    {
+     "run_id": "v2.1_gru_bahdanau_lr0.0003_seed2_final",
+     "seed": 2,
+     "checkpoint_file": "v2.1_gru_bahdanau_lr0.0003_seed2_final_best.pt",
+     "selected_epoch": 6,
+     "val_bleu4": 0.19585263041099718
+    },
+    {
+     "run_id": "v2.1_gru_bahdanau_lr0.0003_seed3_final",
+     "seed": 3,
+     "checkpoint_file": "v2.1_gru_bahdanau_lr0.0003_seed3_final_best.pt",
+     "selected_epoch": 4,
+     "val_bleu4": 0.19757271491562542
+    }
+   ]
+  },
+  "gru_baseline": {
+   "learning_rate": 0.0003,
+   "decode_policy": "incremental (recurrent state reuse)",
+   "model_config": {
+    "dropout": 0.3,
+    "attention": null,
+    "layers": 1
+   },
+   "parameter_count": 4185837,
+   "runs": [
+    {
+     "run_id": "v2.1_gru_baseline_lr0.0003_seed1_final",
+     "seed": 1,
+     "checkpoint_file": "v2.1_gru_baseline_lr0.0003_seed1_final_best.pt",
+     "selected_epoch": 5,
+     "val_bleu4": 0.1821583975306818
+    },
+    {
+     "run_id": "v2.1_gru_baseline_lr0.0003_seed2_final",
+     "seed": 2,
+     "checkpoint_file": "v2.1_gru_baseline_lr0.0003_seed2_final_best.pt",
+     "selected_epoch": 13,
+     "val_bleu4": 0.19522077357205003
+    },
+    {
+     "run_id": "v2.1_gru_baseline_lr0.0003_seed3_final",
+     "seed": 3,
+     "checkpoint_file": "v2.1_gru_baseline_lr0.0003_seed3_final_best.pt",
+     "selected_epoch": 10,
+     "val_bleu4": 0.1842884124519352
+    }
+   ]
+  },
+  "gru_luong": {
+   "learning_rate": 0.0003,
+   "decode_policy": "incremental (recurrent state reuse)",
+   "model_config": {
+    "dropout": 0.3,
+    "attention": "luong_dot",
+    "heads": 1
+   },
+   "parameter_count": 5234925,
+   "runs": [
+    {
+     "run_id": "v2.1_gru_luong_lr0.0003_seed1_final",
+     "seed": 1,
+     "checkpoint_file": "v2.1_gru_luong_lr0.0003_seed1_final_best.pt",
+     "selected_epoch": 5,
+     "val_bleu4": 0.17042956403999399
+    },
+    {
+     "run_id": "v2.1_gru_luong_lr0.0003_seed2_final",
+     "seed": 2,
+     "checkpoint_file": "v2.1_gru_luong_lr0.0003_seed2_final_best.pt",
+     "selected_epoch": 4,
+     "val_bleu4": 0.17156329114774466
+    },
+    {
+     "run_id": "v2.1_gru_luong_lr0.0003_seed3_final",
+     "seed": 3,
+     "checkpoint_file": "v2.1_gru_luong_lr0.0003_seed3_final_best.pt",
+     "selected_epoch": 4,
+     "val_bleu4": 0.16894621938099377
+    }
+   ]
+  },
+  "gru_multihead": {
+   "learning_rate": 0.0003,
+   "decode_policy": "incremental (recurrent state reuse)",
+   "model_config": {
+    "dropout": 0.3,
+    "attention": "multihead",
+    "heads": 4
+   },
+   "parameter_count": 6285549,
+   "runs": [
+    {
+     "run_id": "v2.1_gru_multihead_lr0.0003_seed1_final",
+     "seed": 1,
+     "checkpoint_file": "v2.1_gru_multihead_lr0.0003_seed1_final_best.pt",
+     "selected_epoch": 5,
+     "val_bleu4": 0.19168533533903306
+    },
+    {
+     "run_id": "v2.1_gru_multihead_lr0.0003_seed2_final",
+     "seed": 2,
+     "checkpoint_file": "v2.1_gru_multihead_lr0.0003_seed2_final_best.pt",
+     "selected_epoch": 5,
+     "val_bleu4": 0.18809681917409546
+    },
+    {
+     "run_id": "v2.1_gru_multihead_lr0.0003_seed3_final",
+     "seed": 3,
+     "checkpoint_file": "v2.1_gru_multihead_lr0.0003_seed3_final_best.pt",
+     "selected_epoch": 4,
+     "val_bleu4": 0.19700391123071107
+    }
+   ]
+  },
+  "transformer": {
+   "learning_rate": 0.0003,
+   "decode_policy": "prefix-recompute (non-incremental)",
+   "model_config": {
+    "dropout": 0.3,
+    "layers": 2,
+    "heads": 4,
+    "ff_dim": 1024,
+    "attention": "transformer_cross"
+   },
+   "parameter_count": 10028013,
+   "runs": [
+    {
+     "run_id": "v2.1_transformer_lr0.0003_seed1_final",
+     "seed": 1,
+     "checkpoint_file": "v2.1_transformer_lr0.0003_seed1_final_best.pt",
+     "selected_epoch": 4,
+     "val_bleu4": 0.1887345693334021
+    },
+    {
+     "run_id": "v2.1_transformer_lr0.0003_seed2_final",
+     "seed": 2,
+     "checkpoint_file": "v2.1_transformer_lr0.0003_seed2_final_best.pt",
+     "selected_epoch": 5,
+     "val_bleu4": 0.18997389552851246
+    },
+    {
+     "run_id": "v2.1_transformer_lr0.0003_seed3_final",
+     "seed": 3,
+     "checkpoint_file": "v2.1_transformer_lr0.0003_seed3_final_best.pt",
+     "selected_epoch": 6,
+     "val_bleu4": 0.19042067884116662
+    }
+   ]
+  }
+ }
+}
